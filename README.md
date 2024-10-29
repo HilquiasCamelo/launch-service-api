@@ -54,7 +54,7 @@ Para executar o microserviço localmente, siga os passos abaixo:
 
 1. **Navegue até o diretório do projeto**:
    ```bash
-   cd /caminho/para/seu/projeto/cashflow-api-gateway
+   cd /caminho/para/seu/projeto/launch_service_api
 ### Construa o projeto: 
 
 - **Execute o seguinte comando para construir o projeto:**

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hilquiascamelo</groupId>
-	<artifactId>cashflow-api-gateway</artifactId>
+	<artifactId>launch_service_api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cashflow-api-gateway</name>
-	<description>O CashFlowAPI Gateway é um componente central em uma arquitetura baseada em microsserviços, projetado para gerenciar e facilitar a comunicação entre os serviços relacionados ao controle de fluxo de caixa de comerciantes. Este gateway atua como um ponto de entrada unificado, oferecendo uma interface simplificada para os consumidores da API interagirem com os serviços de lançamentos financeiros e consolidação de dados.</description>
+	<name>launch_service_api</name>
+	<description>O Launch Service é um componente central em uma arquitetura baseada em microsserviços, projetado para gerenciar e facilitar a criação e manipulação de lançamentos financeiros.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -35,6 +35,45 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Dependência do MapStruct -->
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct</artifactId>
+			<version>1.5.5.Final</version> <!-- verifique a versão mais recente -->
+		</dependency>
+		<!-- Dependência do Processor do MapStruct para geração de código -->
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct-processor</artifactId>
+			<version>1.5.5.Final</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.14</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

@@ -1,13 +1,13 @@
-package com.hilquiascamelo.cashflow_api_gateway;
+package com.hilquiascamelo.launch_service_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CashflowApiGatewayApplication {
+public class LaunchServiceApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CashflowApiGatewayApplication.class, args);
+		SpringApplication.run(LaunchServiceApiApplication.class, args);
 	}
 
 }
