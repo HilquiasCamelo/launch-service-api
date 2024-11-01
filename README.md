@@ -82,10 +82,3 @@ http://localhost:8080
 
 
 **Parar o Microserviço: Para parar a execução, pressione Ctrl + C no terminal**
-
-Agora está tudo em um único bloco, sem interrupções. Se precisar de mais algo ou se tiver outras solicitações, estou aqui para ajudar!
-
-
-
-
-
