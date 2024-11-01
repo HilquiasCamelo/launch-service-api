@@ -1,4 +1,5 @@
-# Cashflow API Gateway
+# Launch Service API
+
 
 ## Descrição
 Este microserviço atua como um gateway para a gestão de lançamentos financeiros, permitindo a realização de operações CRUD (Criar, Ler, Atualizar, Excluir) em lançamentos e fornecendo relatórios consolidados.
