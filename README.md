@@ -80,5 +80,11 @@ Esse comando irá parar e remover todos os contêineres definidos no arquivo doc
 - Após iniciar, você pode acessar o microserviço no seguinte endereço:
 http://localhost:8080
 
+- **Acesse Prometheus e Grafana para Monitoramento:** 
+
+Prometheus: http://localhost:9090
+Grafana: http://localhost:3000 (credenciais padrão: admin/admin)
+
+
 
 **Parar o Microserviço: Para parar a execução, pressione Ctrl + C no terminal**
