@@ -67,9 +67,19 @@ mvn clean install
 mvn spring-boot:run
  ```
 
+- **Parar o Microserviço e os Contêineres do Kafka:**
+
+Para parar a execução do microserviço, pressione Ctrl + C no terminal onde o microserviço está em execução.
+Para parar os contêineres do Kafka, execute o seguinte comando no terminal, no diretório onde o docker-compose.yml está localizado:
+ ```bash
+docker-compose down
+ ```
+Esse comando irá parar e remover todos os contêineres definidos no arquivo docker-compose.yml, liberando os recursos utilizados.
+
 - **Acesse o microserviço:** 
 - Após iniciar, você pode acessar o microserviço no seguinte endereço:
 http://localhost:8080
+
 
 **Parar o Microserviço: Para parar a execução, pressione Ctrl + C no terminal**
 
